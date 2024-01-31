@@ -1,0 +1,123 @@
+header {
+    height: 100vh;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    position: fixed;
+    left: 20px;
+    /* 
+align-items: center;
+display: flex;
+flex: none;
+flex-direction: row;
+flex-wrap: nowrap;
+gap: 0px;
+height: 100vh;
+justify-content: center;
+left: 20px;
+overflow: hidden;
+padding: 0;
+position: fixed;
+top: 50%;
+transform: translateY(-50%);
+width: min-content;
+z-index: 2; */
+}
+
+#perfil-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #565656;
+    border-radius: 2rem;
+    padding: 25px;
+    text-align: center;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo button{
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+
+    padding: 10px 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.topo button:hover{
+    transform: scale(1.1);
+}
+
+.topo img {
+    width: 70px;
+}
+
+.foto-perfil {
+    margin: 20px 0;
+}
+
+.foto-perfil img {
+    width: 275px;
+}
+
+.meu-nome {
+    margin: 15px 0;
+}
+
+.meu-subtitulo {
+    font-size: 1.2rem;
+}
+
+.minhas-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.minhas-redes-sociais i {
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #565656;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.minhas-redes-sociais i:hover {
+    color: #FD7106;
+    border: 1px solid #FD7106;
+
+    transform: scale(1.1);
+}
+
+.meus-contatos button {
+    text-decoration: none;
+    background-color: #FD7106;
+    color: black;
+
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.meus-contatos i {
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+
+
+
