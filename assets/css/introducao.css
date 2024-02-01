@@ -1,0 +1,88 @@
+/* Introdução */
+
+.sobre-mim-container {
+    padding: 5rem 10rem 0 10rem;
+    /* background-color: #ffffff11; */
+}
+
+.sobre-mim-container .introducao {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #565656;
+    border-radius: 2rem;
+}
+
+.sobre-mim-container .introducao i {
+    margin-right: 10px;
+    font-size: .9rem;
+}
+
+.sobre-mim-container .sobre-mim {
+   margin: 8rem 0;
+   text-align: justify;
+}
+
+.sobre-mim-container .sobre-mim h1 {
+    font-size: 3rem;
+    
+}
+
+.sobre-mim-container .sobre-mim h1 span {
+    font-size: 4rem;
+    color: #FD7106;
+}
+
+.sobre-mim-container .txt-sobre-mim {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+}
+
+.barra-skills {
+    margin-top: 12rem;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-skills {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #FD7106;
+    border-bottom: 1px solid #FD7106;
+}
+
+.container-skills .skill {
+    display: flex;
+    width: 8rem;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container-skills .skill:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    i, p {
+        color: #FD7106;
+    }
+}
+
+.container-skills .skill i {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container-skills .skill p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+

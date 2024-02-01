@@ -5,7 +5,7 @@ header {
     align-items: center;
     justify-content: center;
     position: fixed;
-    right: 30px;
+    right: 75px;
 }
 
 #perfil-container {
@@ -17,7 +17,6 @@ header {
     border: 1px solid #565656;
     border-radius: 2rem;
 }
-
 
 .topo {
     display: flex;
@@ -36,6 +35,7 @@ header {
     border: 1px solid #565656;
     border-radius: 2rem;
     cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 .topo button:hover{
@@ -90,6 +90,7 @@ header {
     border: 1px solid #565656;
     border-radius: 50%;
     cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 .minhas-redes-sociais i:hover {
@@ -111,6 +112,7 @@ header {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.41);
     border-radius: 2rem;
     cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 .meus-contatos button:hover {
@@ -125,4 +127,44 @@ header {
 
 .meus-contatos i {
     margin-right: 10px;
+}
+
+/* BARRA LATERAL */
+
+.barra-lateral {
+    height: 100vh;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 75px;
+}
+
+.barra-lateral-nav {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    padding: 20px 10px;
+    
+    text-align: center;    
+    border: 1px solid #525252;
+    border-radius: 2rem;
+}
+
+.barra-lateral-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.barra-lateral-nav li {
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.barra-lateral-nav i:hover {
+    color: #FD7106;
+    transform: scale(1.2);
 }
