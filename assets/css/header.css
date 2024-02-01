@@ -4,37 +4,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
     position: fixed;
-    left: 20px;
-    /* 
-align-items: center;
-display: flex;
-flex: none;
-flex-direction: row;
-flex-wrap: nowrap;
-gap: 0px;
-height: 100vh;
-justify-content: center;
-left: 20px;
-overflow: hidden;
-padding: 0;
-position: fixed;
-top: 50%;
-transform: translateY(-50%);
-width: min-content;
-z-index: 2; */
+    right: 30px;
 }
 
 #perfil-container {
     display: flex;
     flex-direction: column;
-    border: 1px solid #565656;
-    border-radius: 2rem;
     padding: 25px;
     text-align: center;
+
+    border: 1px solid #565656;
+    border-radius: 2rem;
 }
+
 
 .topo {
     display: flex;
@@ -44,20 +27,34 @@ z-index: 2; */
 
 .topo button{
     text-decoration: none;
-    background-color: #fff;
-    color: black;
-
-    padding: 10px 20px;
+    font-size: .85rem;
+    padding: 10px 15px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+    
+    background-color: #1F1F1F;
+    border: 1px solid #565656;
     border-radius: 2rem;
     cursor: pointer;
 }
 
 .topo button:hover{
     transform: scale(1.1);
+    border-color: #FD7106;
+    color: #FD7106;
+    i {
+        color: #FD7106;
+    }
 }
 
+.topo button i {
+    margin-right: 5px;
+    color: #525252;
+}
+
+
 .topo img {
-    width: 70px;
+    width: 75px;
 }
 
 .foto-perfil {
@@ -65,7 +62,8 @@ z-index: 2; */
 }
 
 .foto-perfil img {
-    width: 275px;
+    width: 285px;
+    border-radius: 50%;
 }
 
 .meu-nome {
@@ -80,14 +78,15 @@ z-index: 2; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
     margin: 25px 0;
 }
 
 .minhas-redes-sociais i {
     font-size: 20px;
-    padding: 20px;
-    margin-top: 15px;
+    color: #525252;
+    padding: 15px;
+    margin-top: 10px;
     border: 1px solid #565656;
     border-radius: 50%;
     cursor: pointer;
@@ -103,21 +102,27 @@ z-index: 2; */
 .meus-contatos button {
     text-decoration: none;
     background-color: #FD7106;
-    color: black;
+    border: 1px solid #FD7106;
+    color: white;
 
-    width: 100%;
-    padding: 15px 20px;
-    font-size: 1.2rem;
+    width: 90%;
+    padding: 12px 20px;
+    font-size: .95rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.41);
     border-radius: 2rem;
     cursor: pointer;
 }
 
-.meus-contatos i {
-    color: black;
-    font-size: 1.5rem;
-    margin-right: 10px;
+.meus-contatos button:hover {
+    transform: scale(1.05);
+    background-color: #1F1F1F;
+    border: 1px solid #FD7106;
+    color: #FD7106;
+    i {
+        color: #FD7106;
+    }
 }
 
-
-
-
+.meus-contatos i {
+    margin-right: 10px;
+}

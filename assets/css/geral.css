@@ -1,0 +1,42 @@
+/* Sobre mim (AboutMe) */
+
+.sobre-mim-container {
+    padding: 5rem 10rem 0 10rem;
+    /* background-color: #ffffff11; */
+}
+
+.sobre-mim-container .introducao {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #565656;
+    border-radius: 2rem;
+}
+
+.sobre-mim-container .introducao i {
+    margin-right: 10px;
+    font-size: .9rem;
+}
+
+.sobre-mim-container .sobre-mim {
+   margin: 10rem 0;
+   text-align: justify;
+}
+
+.sobre-mim-container .sobre-mim h1 {
+    font-size: 3rem;
+    
+}
+
+.sobre-mim-container .sobre-mim h1 span {
+    font-size: 4rem;
+    color: #FD7106;
+}
+
+.sobre-mim-container .txt-sobre-mim {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+}
+
+
+
