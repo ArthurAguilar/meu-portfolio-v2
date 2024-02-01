@@ -18,7 +18,7 @@
 }
 
 .sobre-mim-container .sobre-mim {
-   margin: 8rem 0;
+   margin: 7rem 0;
    text-align: justify;
 }
 
@@ -39,12 +39,17 @@
 }
 
 .barra-skills {
+    display: none;
     margin-top: 12rem;;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.barra-skills h2 span {
+    color: #FD7106;
 }
 
 .container-skills {

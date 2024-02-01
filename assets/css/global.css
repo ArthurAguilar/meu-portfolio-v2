@@ -12,10 +12,11 @@
 }
 
 body {
-    height: 300vh;
+    height: 400vh;
     width: 100vw;
+    /* background-color: #0F1724; */
     background-color: #1F1F1F;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 main {
@@ -28,7 +29,7 @@ main {
 }
 
 .tooltip::after {
-    content: attr(title);
+    content: 'Início';
     position: absolute;
     color: #FFF;
     padding: 10px;
@@ -38,6 +39,19 @@ main {
     opacity: 0;
     transition: opacity .5s;
 }
+
+.sobre-icon::after {
+    content: 'Sobre';
+}
+
+.projetos-icon::after {
+    content: 'Projetos';
+}
+
+.contatos-icon::after {
+    content: 'Contatos';
+}
+
 
 .tooltip:hover::after {
     opacity: 1;
