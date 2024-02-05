@@ -1,12 +1,15 @@
 @media screen and (max-width: 1440px) {
+    main {
+        width:0;
+        margin: 0;
+    }
 
     .meu-cv-mobile,
     .menu {
         display: block;
     }
 
-    .barra-lateral,
-    main {
+    .barra-lateral {
         display: none;
     }
 
@@ -19,7 +22,7 @@
 
     #perfil-container {
         padding: 10px;
-        width: 91%;
+        width: 95%;
     }
 
     .topo img {
@@ -42,7 +45,6 @@
         text-align: center;
         margin: 0;
     }
-
 
     .foto-perfil img {
         width: 270px;
@@ -111,14 +113,100 @@
         border-radius: 2rem;
     }
 
+    .introducao-container {
+        padding: 0;
+        margin-left: -100px;
+        margin-top: 100px;
+    }
+
+    .introducao-container .introducao {
+        display: inline-block;
+        padding: 5px 10px;
+        border: 1px solid #565656;
+        border-radius: 2rem;
+    }
+
+    .introducao-container .introducao i {
+        margin-right: 10px;
+        font-size: .9rem;
+    }
+
+    .introducao-container .apresentacao {
+        margin: 7rem 0;
+        text-align: left;
+    }
+
+    .introducao-container .apresentacao h1 {
+        font-size: 3rem;
+
+    }
+
+    .introducao-container .apresentacao h1 span {
+        font-size: 4rem;
+        color: #FD7106;
+    }
+
+    .introducao-container .txt-sobre-mim {
+        font-size: 1.2rem;
+        margin-top: 5rem;
+        margin-right: 0;
+    }
+
+    .barra-skills {
+        margin-top: 6rem;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
+    main {
+        width:0;
+        margin: 0 0;
+    }
+
     .meu-cv-mobile button {
         width: 50%;
     }
 
     .foto-perfil img {
         width: 230px;
+    }
+
+    .barra-skills {
+        display: none;
+        margin-top: rem;
+        margin-left: -3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .barra-skills h2 span {
+        color: #FD7106;
+    }
+    
+    .container-skills {
+        gap: 10px;
+        border-top: 1px solid #FD7106;
+        border-bottom: 1px solid #FD7106;
+    }
+    
+    .container-skills .skill {
+        display: flex;
+
+        padding: 20px;
+    }
+        
+    .container-skills .skill i {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .container-skills .skill p {
+        text-align: center;
+        font-size: .8rem;
+        margin-top: 10px;
     }
 }
