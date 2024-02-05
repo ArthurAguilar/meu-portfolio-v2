@@ -1,0 +1,110 @@
+@media screen and (max-width: 600px) {
+
+
+    .barra-lateral,
+    main {
+        display: none;
+    }
+
+    header {
+        height: auto;
+        width: 100vw;
+        margin-top: 10px;
+        position: static;
+    }
+
+    #perfil-container {
+        padding: 10px;
+        width: 91%;
+    }
+
+    .topo img {
+        width: 80px;
+    }
+
+    .meu-cv {
+        display: none;
+    }
+
+    .topo button {
+        font-size: 1.4rem;
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topo button i {
+        text-align: center;
+        margin: 0;
+    }
+
+
+    .foto-perfil img {
+        width: 270px;
+        margin-bottom: 30px;
+    }
+
+    .meu-nome {
+        font-size: 1.3rem;
+        margin: 15px 0;
+    }
+
+    .meu-subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .meu-subtitulo p {
+        color: #adadad;
+    }
+
+    .minhas-redes-sociais {
+        gap: 20px;
+        margin: 45px 0;
+    }
+
+    .minhas-redes-sociais i {
+        font-size: 22px;
+        color: #525252;
+        padding: 18px;
+        margin-top: 20px;
+        border: 1px solid #565656;
+        border-radius: 50%;
+    }
+
+    .meu-cv-mobile button {
+        background-color: #1F1F1F;
+        width: 40%;
+        margin: auto;
+        padding: 10px 20px;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: transform .3s;
+    }
+
+    .meu-cv-mobile button:hover {
+        transform: scale(1.1);
+    }
+
+    .meu-cv-mobile  i {
+        margin-right: 10px;
+        font-size: 20px;
+        color: #adadad;
+ 
+    }
+
+    .meus-contatos button {
+        text-decoration: none;
+        background-color: #FD7106;
+        border: 1px solid #FD7106;
+
+        width: 90%;
+        margin: 15px 0;
+        padding: 12px 20px;
+        font-size: 0.9rem;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.41);
+        border-radius: 2rem;
+    }
+
+}
