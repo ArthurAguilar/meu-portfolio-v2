@@ -1,5 +1,9 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1440px) {
 
+    .meu-cv-mobile,
+    .menu {
+        display: block;
+    }
 
     .barra-lateral,
     main {
@@ -87,11 +91,11 @@
         transform: scale(1.1);
     }
 
-    .meu-cv-mobile  i {
+    .meu-cv-mobile i {
         margin-right: 10px;
         font-size: 20px;
         color: #adadad;
- 
+
     }
 
     .meus-contatos button {

@@ -1,3 +1,8 @@
+.meu-cv-mobile,
+.menu {
+    display: none;
+}
+
 header {
     height: 100vh;
     width: max-content;
