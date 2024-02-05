@@ -1,5 +1,4 @@
 @media screen and (max-width: 1440px) {
-
     .meu-cv-mobile,
     .menu {
         display: block;
@@ -31,7 +30,7 @@
     }
 
     .topo button {
-        font-size: 1.4rem;
+        font-size: 2rem;
         padding: 10px 10px;
         display: flex;
         align-items: center;
