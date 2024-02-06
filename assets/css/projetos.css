@@ -1,0 +1,10 @@
+.projetos {
+    width: 100%;
+    text-align: center;
+}
+
+
+.projetos img {
+    height: 500px;
+    margin-top: 10rem;
+}
