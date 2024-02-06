@@ -1,7 +1,7 @@
 @media screen and (max-width: 1440px) {
-    main {
-        width:0;
-        margin: 0;
+    #paginaTotal {
+        margin: 0 auto;
+        width: 95%
     }
 
     .meu-cv-mobile,
@@ -115,7 +115,6 @@
 
     .introducao-container {
         padding: 0;
-        margin-left: -100px;
         margin-top: 100px;
     }
 
@@ -160,7 +159,7 @@
 
 @media screen and (max-width: 600px) {
     main {
-        width:0;
+        width: 0;
         margin: 0 0;
     }
 
@@ -175,35 +174,34 @@
     .barra-skills {
         display: none;
         margin-top: rem;
-        margin-left: -3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
     }
-    
+
     .barra-skills h2 span {
         color: #FD7106;
     }
-    
+
     .container-skills {
         gap: 10px;
         border-top: 1px solid #FD7106;
         border-bottom: 1px solid #FD7106;
+        padding: 0;
     }
-    
+
     .container-skills .skill {
         display: flex;
-
         padding: 20px;
     }
-        
+
     .container-skills .skill i {
         font-size: 1.5rem;
         text-align: center;
     }
-    
+
     .container-skills .skill p {
         text-align: center;
         font-size: .8rem;

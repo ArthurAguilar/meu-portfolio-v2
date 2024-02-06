@@ -17,7 +17,7 @@ body {
     width: 100vw;
     /* background-color: #0F1724; */
     background-color: #1F1F1F;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 main {
