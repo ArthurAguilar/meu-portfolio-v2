@@ -1,7 +1,9 @@
 @media screen and (max-width: 1440px) {
-    #paginaTotal {
+    main#paginaTotal {
         margin: 0 auto;
-        width: 95%
+        width: 95%;
+        /* background-color: #e07c7c43; */
+        padding: 5rem 10rem 0 10rem;
     }
 
     .meu-cv-mobile,
@@ -118,14 +120,14 @@
         margin-top: 100px;
     }
 
-    .introducao-container .introducao {
+    .introducao-container .titulo-divisa {
         display: inline-block;
         padding: 5px 10px;
         border: 1px solid #565656;
         border-radius: 2rem;
     }
 
-    .introducao-container .introducao i {
+    .introducao-container .titulo-divisa i {
         margin-right: 10px;
         font-size: .9rem;
     }
@@ -145,9 +147,13 @@
         color: #FD7106;
     }
 
-    .introducao-container .txt-sobre-mim {
+    .introducao-container .txt-resumo {
         font-size: 1.2rem;
         margin-top: 5rem;
+        margin-right: 0;
+    }
+
+    .sobre-mim p {
         margin-right: 0;
     }
 
@@ -157,11 +163,36 @@
 
 }
 
+@media screen and (max-width: 1000px) {
+    main#paginaTotal {
+        margin: 0 auto;
+        width: 95%;
+        padding: 5rem 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main#paginaTotal {
+        margin: 0 auto;
+        width: 95%;
+        padding: 5rem 0;
+    }
+
+    .container-skills {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .meus-projetos img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     main {
-        width: 0;
-        margin: 0 0;
-        padding: 5px;
+        width: 0%;
+        padding: 0rem 0rem;
     }
 
     .meu-cv-mobile button {
@@ -189,28 +220,22 @@
         gap: 5px;
     }
 
-
-
-    .container-skills {
-        gap: 10px;
-        border-top: 1px solid #FD7106;
-        border-bottom: 1px solid #FD7106;
-        padding: 0;
-    }
-
     .container-skills .skill {
         display: flex;
-        padding: 10px;
+        padding: 5px;
+        width: 100px;
+        height: 100px;
     }
 
     .container-skills .skill i {
-        font-size: 1.5rem;
+        font-size: .8rem;
         text-align: center;
     }
 
     .container-skills .skill p {
         text-align: center;
-        font-size: .8rem;
+        font-size: .5rem;
         margin-top: 10px;
     }
+
 }

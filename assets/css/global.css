@@ -1,11 +1,11 @@
 @charset "UTF-8";
-@import url(media-queries.css);
 @import url(header.css);
 @import url(introducao.css);
 @import url(sobre-mim.css);
 @import url(habilidades.css);
 @import url(projetos.css);
 @import url(global.css);
+@import url(media-queries.css);
 
 
 * {
