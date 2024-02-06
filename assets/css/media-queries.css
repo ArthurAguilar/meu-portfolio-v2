@@ -161,6 +161,7 @@
     main {
         width: 0;
         margin: 0 0;
+        padding: 5px;
     }
 
     .meu-cv-mobile button {
@@ -171,14 +172,20 @@
         width: 230px;
     }
 
+    .introducao-container .apresentacao h1 {
+        font-size: 2rem;
+    }
+
+    .introducao-container .apresentacao h1 span {
+        font-size: 3rem;
+    }
+
     .barra-skills {
-        display: none;
-        margin-top: rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
 
     .barra-skills h2 span {
@@ -194,7 +201,7 @@
 
     .container-skills .skill {
         display: flex;
-        padding: 20px;
+        padding: 10px;
     }
 
     .container-skills .skill i {
