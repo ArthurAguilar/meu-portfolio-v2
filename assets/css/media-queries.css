@@ -180,8 +180,21 @@
 
     .container-skills {
         grid-template-columns: 1fr 1fr;
+        gap: 25px;
     }
 
+
+
+    .container-skills .skills i {
+        font-size: 2rem;
+        text-align: center;
+        color: #cccccc;
+    }
+
+    .container-skills .skills p {
+        text-align: center;
+        color: #cccccc;
+    }
 
     .meus-projetos img {
         width: 300px;
@@ -218,6 +231,11 @@
         justify-content: center;
         align-items: center;
         gap: 5px;
+    }
+
+    .container-skills .skills {
+        padding: 25px 65px;
+        gap: 15px;
     }
 
     .container-skills .skill {
