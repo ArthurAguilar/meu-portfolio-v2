@@ -1,9 +1,9 @@
 /* Introdução */
 
-.introducao-container {
+/* .introducao-container {
     padding: 5rem 10rem 0 10rem;
-    /* background-color: #ffffff11; */
-}
+    background-color: #ffffff11;
+} */
 
 .introducao-container .introducao {
     display: inline-block;
@@ -37,52 +37,58 @@
     margin-right: 10rem;
 }
 
-.barra-skills {
-    display: none;
-    margin-top: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.minhas-skills {
+    margin-top: 10rem;
 }
 
-.barra-skills h2 span {
+.minhas-skills h2 {
+    font-size: 2.3rem;
+    margin-bottom: 5rem;
+}
+
+.minhas-skills h2 span {
     color: #FD7106;
 }
 
 .container-skills {
-    display: flex;
-    width: 100%;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid #FD7106;
-    border-bottom: 1px solid #FD7106;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
-.container-skills .skill {
+.container-skills .skills {
     display: flex;
-    width: 8rem;
     flex-direction: column;
-    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: auto;
+
+    width: 100px;
+    background: linear-gradient(to right, #1a1c1d, #2b2b2d);
+    padding: 40px 90px;
+    border: 1px solid #adadad;
+    border-radius: 2rem;
+    transition: transform .3s;
+
 }
 
-.container-skills .skill:hover {
+.container-skills .skills i {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container-skills .skills p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-skills .skills:hover {
+    border-color: #FD7106;
     cursor: pointer;
     transform: scale(1.1);
 
     i, p {
         color: #FD7106;
     }
-}
-
-.container-skills .skill i {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.container-skills .skill p {
-    text-align: center;
-    margin-top: 10px;
 }
