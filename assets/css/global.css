@@ -16,6 +16,10 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 400vh;
     width: 100vw;
