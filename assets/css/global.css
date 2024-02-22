@@ -39,6 +39,31 @@ section {
     margin-bottom: 10rem;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+}
+
+section.hidden {
+    transform: translateX(-100%);
+}
+
+header.hidden {
+    transform: translatey(-100%);
+}
+
+aside.hidden {
+    transform: translateY(100%);
+}
+
 .tooltip {
     position: relative;
 }
