@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    height: 400vh;
+    /* height: 400vh; */
     width: 100vw;
     /* background-color: #0F1724; */
     background-color: #1F1F1F;
@@ -37,31 +37,6 @@ main {
 
 section {
     margin-bottom: 10rem;
-}
-
-.hidden {
-    opacity: 0;
-    filter: blur(15px);
-
-    transition: all 1s;
-}
-
-.show {
-    opacity: 1;
-    filter: blur(0);
-    transition: all 1s;
-}
-
-section.hidden {
-    transform: translateX(-100%);
-}
-
-header.hidden {
-    transform: translatey(-100%);
-}
-
-aside.hidden {
-    transform: translateY(100%);
 }
 
 .tooltip {
@@ -120,4 +95,43 @@ aside.hidden {
 
 .titulo-sessao span {
     color: #FD7106;
+}
+
+/* ANIMAÇÃO */
+
+.hidden {
+    opacity: 0;
+    filter: blur(10px);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+}
+
+section.hidden:nth-child(odd) {
+    transform: translateX(-100%);
+}
+
+section.hidden:nth-child(even) {
+    transform: translateX(100%);
+}
+
+header.hidden {
+    transform: translatey(-100%);
+    transition: all 3s;
+}
+
+header.show {
+    transition: all 2s;
+}
+
+aside.hidden {
+    transform: translateY(100%);
+}
+
+aside.show {
+    transition: all 2s;
 }
