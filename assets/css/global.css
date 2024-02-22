@@ -36,7 +36,7 @@ main {
 }
 
 section {
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
 }
 
 .tooltip {
@@ -71,7 +71,6 @@ section {
     content: 'Contatos';
 }
 
-
 .tooltip:hover::after {
     opacity: 1;
 }
@@ -91,6 +90,7 @@ section {
 .titulo-sessao {
     font-size: 3rem;
     margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 
 .titulo-sessao span {
