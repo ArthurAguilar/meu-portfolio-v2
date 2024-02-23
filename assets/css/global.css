@@ -12,6 +12,7 @@
     --cor-secundaria: #cccccc;
     --cor-terciario: #fff;
     --cor-bordas: #565656;
+    --cor-suporte: #c25705;
 }
 
 * {
@@ -95,7 +96,17 @@ section {
 .titulo-sessao {
     font-size: 3rem;
     margin: 2rem 0 5rem 0;
+    position: relative;
 }
+
+/* .titulo-sessao::after {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: -10px;
+    width: 50%;
+    border-bottom: 1px solid var(--cor-suporte);
+} */
 
 .titulo-sessao span {
     color: var(--cor-principal);

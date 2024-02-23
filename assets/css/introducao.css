@@ -12,6 +12,16 @@
 
 .introducao-container .apresentacao h1 {
     font-size: 3rem;
+    position: relative;
+}
+
+.introducao-container .apresentacao h1::after {
+    content: "";
+    position: absolute;
+    left: -25px;
+    bottom: -30px;
+    width: 30%;
+    border-bottom: 4px solid var(--cor-suporte);
 }
 
 .introducao-container .apresentacao h1 span {
@@ -21,7 +31,7 @@
 
 .introducao-container .txt-resumo {
     font-size: 1.2rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-right: 10rem;
     margin-left: 1rem;
 }
