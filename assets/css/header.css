@@ -33,28 +33,29 @@ header {
     text-decoration: none;
     font-size: .85rem;
     padding: 10px 15px;
-    color: #adadad;
+    color: var(--cor-secundaria);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
-    
+
     background-color: #1F1F1F;
-    border: 1px solid #565656;
+    border: 1px solid var(--cor-bordas);
     border-radius: 2rem;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
-.topo button:hover{
+.topo button:hover {
     transform: scale(1.1);
-    border-color: #FD7106;
-    color: #FD7106;
+    border-color: var(--cor-principal);
+    color: var(--cor-principal);
+
     i {
-        color: #FD7106;
+        color: var(--cor-principal);
     }
 }
 
 .topo button i {
     margin-right: 5px;
-    color: #adadad;
+    color: var(--cor-secundaria);
     transition: transform 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
@@ -80,7 +81,7 @@ header {
 }
 
 .meu-subtitulo p {
-    color: #adadad;
+    color: var(--cor-secundaria);
 }
 
 .minhas-redes-sociais {
@@ -96,23 +97,22 @@ header {
     color: #525252;
     padding: 15px;
     margin-top: 10px;
-    border: 1px solid #565656;
+    border: 1px solid var(--cor-bordas);
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 .minhas-redes-sociais i:hover {
-    color: #FD7106;
-    border: 1px solid #FD7106;
-
+    color: var(--cor-principal);
+    border: 1px solid var(--cor-principal);
     transform: scale(1.1);
 }
 
 .meus-contatos button {
     text-decoration: none;
-    background-color: #FD7106;
-    border: 1px solid #FD7106;
+    background-color: var(--cor-principal);
+    border: 1px solid var(--cor-principal);
 
     width: 90%;
     padding: 12px 20px;
@@ -126,10 +126,11 @@ header {
 .meus-contatos button:hover {
     transform: scale(1.05);
     background-color: #1F1F1F;
-    border: 1px solid #FD7106;
-    color: #FD7106;
+    border: 1px solid var(--cor-principal);
+    color: var(--cor-principal);
+
     i {
-        color: #FD7106;
+        color: var(--cor-principal);
     }
 }
 
@@ -154,9 +155,9 @@ header {
     flex-direction: column;
     width: 50px;
     padding: 20px 10px;
-    
-    text-align: center;    
-    border: 1px solid #525252;
+
+    text-align: center;
+    border: 1px solid var(--cor-bordas);
     border-radius: 2rem;
 }
 
@@ -173,6 +174,6 @@ header {
 }
 
 .barra-lateral-nav i:hover {
-    color: #FD7106;
+    color: var(--cor-principal);
     transform: scale(1.2);
 }

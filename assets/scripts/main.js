@@ -1,4 +1,5 @@
-alert("Em construção!");
+// alert("Em construção!");
+
 const elements = document.querySelectorAll('.hidden');
 
 const myObserver = new IntersectionObserver(
@@ -14,5 +15,3 @@ const myObserver = new IntersectionObserver(
 elements.forEach((section) => {
     myObserver.observe(section)
 })
-
-

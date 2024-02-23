@@ -7,13 +7,19 @@
 @import url(global.css);
 @import url(media-queries.css);
 
+:root {
+    --cor-principal: #FD7106;
+    --cor-secundaria: #cccccc;
+    --cor-terciario: #fff;
+    --cor-bordas: #565656;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: var(--cor-terciario);
 }
 
 html {
@@ -23,7 +29,6 @@ html {
 body {
     /* height: 400vh; */
     width: 100vw;
-    /* background-color: #0F1724; */
     background-color: #1F1F1F;
     overflow-x: hidden;
 }
@@ -78,7 +83,7 @@ section {
 .titulo-divisa {
     display: inline-block;
     padding: 5px 10px;
-    border: 1px solid #565656;
+    border: 1px solid var(--cor-bordas);
     border-radius: 2rem;
 }
 
@@ -89,12 +94,11 @@ section {
 
 .titulo-sessao {
     font-size: 3rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin: 2rem 0 5rem 0;
 }
 
 .titulo-sessao span {
-    color: #FD7106;
+    color: var(--cor-principal);
 }
 
 /* ANIMAÇÃO */

@@ -28,21 +28,21 @@
 .container-skills .skills i {
     font-size: 3rem;
     text-align: center;
-    color: #cccccc;
+    color: var(--cor-secundaria);
 }
 
 .container-skills .skills p {
     text-align: center;
     margin-top: 10px;
-    color: #cccccc;
+    color: var(--cor-secundaria);
 }
 
 .container-skills .skills:hover {
-    border-color: #FD7106;
+    border-color: var(--cor-principal);
     cursor: pointer;
     transform: scale(1.1);
 
     i, p {
-        color: #FD7106;
+        color: var(--cor-principal);
     }
 }

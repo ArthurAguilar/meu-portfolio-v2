@@ -1,5 +1,5 @@
 /* section.sobre-mim {
-    margin-top: 20rem;
+    margin-top: 16rem;
 } */
 
 /* .titulo-sessao {
@@ -9,7 +9,7 @@
 .txt-sobre-mim {
     font-size: 1.3rem;
     line-height: 1.8;
-    color: #cccccc;
+    color: var(--cor-secundaria);
 
     margin-top: 3rem;
     margin-right: 10rem;

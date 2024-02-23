@@ -16,7 +16,7 @@
 
 .introducao-container .apresentacao h1 span {
     font-size: 4rem;
-    color: #FD7106;
+    color: var(--cor-principal);
 }
 
 .introducao-container .txt-resumo {
@@ -28,5 +28,5 @@
 
 .introducao-container .txt-resumo li {
     margin-bottom: 1.5rem;
-    color: #cccccc;
+    color: var(--cor-secundaria);
 }
