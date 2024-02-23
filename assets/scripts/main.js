@@ -1,4 +1,4 @@
-// alert("Em construção!");
+alert("Em construção!");
 
 const elements = document.querySelectorAll('.hidden');
 
